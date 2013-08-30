@@ -28,7 +28,7 @@ author <- function(deckdir){
 init_repo <- function(){
   message('Initializing Git Repo')
   system("git init")
-  system("git commit --allow-empty -m 'Initial Commit'")
+  system("git commit --allow-empty -m \"Initial Commit\"")
   message("Checking out gh-pages branch...")
   system('git checkout -b gh-pages')
   message('Adding .nojekyll to repo')
